@@ -1,0 +1,21 @@
+research_task:
+  description: >
+    Conduct a thorough research on user engagement trends including site usage, past purchases, and cart history using advanced SQL queries.
+    Identify patterns and segment user data accordingly.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about user engagement trends, extracted and analyzed using SQL.
+
+reporting_task:
+  description: >
+    Review the data points from the research and expand each topic into a full section for a report.
+    The report should include personalized suggestions for weekly email content tailored to different user segments.
+  expected_output: >
+    A fully fledged report with the main topics, each with a full section of information.
+    Formatted as markdown without '```'
+
+email_writing_task:
+  description: >
+    Use the detailed reports to craft personalized and engaging email content for various user segments.
+    Focus on clarity, engagement, and calls to action that are likely to drive user interaction and conversions.
+  expected_output: >
+    A set of personalized emails ready to be scheduled and sent out, each tailored to the specific needs and interests of different user segments. Formatted in plain text or HTML.
