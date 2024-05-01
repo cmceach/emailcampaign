@@ -1,6 +1,6 @@
-# Realtor Crew
+# email_campaign Crew
 
-Welcome to the Realtor Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the email_campaign Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
@@ -25,30 +25,30 @@ poetry install
 
 **Add your `OPENAI_API_KEY` into the `.env` file**
 
-- Modify `src/realtor/config/agents.yaml` to define your agents
-- Modify `src/realtor/config/tasks.yaml` to define your tasks
-- Modify `src/realtor/crew.py` to add your own logic, tools and specific args
-- Modify `src/realtor/main.py` to add custom inputs for your agents and tasks
+- Modify `src/email_campaign/config/agents.yaml` to define your agents
+- Modify `src/email_campaign/config/tasks.yaml` to define your tasks
+- Modify `src/email_campaign/crew.py` to add your own logic, tools and specific args
+- Modify `src/email_campaign/main.py` to add custom inputs for your agents and tasks
 
 ## Running the Project
 
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
 
 ```bash
-poetry run realtor
+poetry run email_campaign
 ```
 
-This command initializes the realtor Crew, assembling the agents and assigning them tasks as defined in your configuration.
+This command initializes the email_campaign Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
 This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folser
 
 ## Understanding Your Crew
 
-The realtor Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+The email_campaign Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
 ## Support
 
-For support, questions, or feedback regarding the Realtor Crew or crewAI.
+For support, questions, or feedback regarding the email_campaign Crew or crewAI.
 - Visit our [documentation](https://docs.crewai.com)
 - Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
 - [Joing our Discord](https://discord.com/invite/X4JWnZnxPb)
